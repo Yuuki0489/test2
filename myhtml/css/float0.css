@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+div#element1{
+	background-color: #0000ff;
+	float: left;
+}
+
+div#element2{
+	background-color: #ff0000;
+	
+	
+}
+
+div#element3{
+	background-color: #5AFF19;
+	
+}
+
+div#element4{
+	background-color: #d3d3d3;
+}
+	
+
+div#elements{
+	float: left;
+	
+}

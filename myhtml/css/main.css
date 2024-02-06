@@ -1,0 +1,158 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* ページ全体の設定 */
+body { color: #000000;
+     background-color: rgb(185, 231, 225);
+	 font-weight: 600;
+	 background-image: url(../img/penguin-background.jpg);
+}
+
+/*リンクの設定*/
+a{
+	/*文字色*/
+color: rgb(0, 138, 185);
+
+	/*太字設定*/
+	
+
+	/*線の装飾*/
+	
+
+}
+
+/*マウスホバー時のリンク設定*/
+a:hover{
+	/*文字色*/
+	color:#e9546b;
+}
+
+/*一度クリックしたリンク設定（訪問済み）*/
+a:visited{
+	/*文字色*/
+	color:#1a1a9d;
+}
+
+h1 {
+	color: rgb(0, 0, 0);
+	font-size: 2.5em;
+	font-weight:10000;
+	background-color: rgb(92, 152, 221);
+	position: relative;
+	padding: 1.5rem 1.5rem calc(1.5rem + 10px);
+	border: 2px solid #ffffff;
+  }
+  
+  h1:after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 13px;
+	content: '';
+	border-top: 2px solid #ffffff;
+	background-image: -webkit-repeating-linear-gradient(135deg, #ffffff, #ffffff 1px, transparent 2px, transparent 5px);
+	background-image: repeating-linear-gradient(-45deg, #ffffff, #ffffff 1px, transparent 2px, transparent 5px);
+	background-size: 7px 7px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+  }
+
+/* 見出しの設定(1番大きい) */
+h2 {
+	/*文字の色*/
+	color: #faf7ef;
+	background-color: rgb(18, 84, 158);
+	/*文字の大きさ*/
+	font-size: 1.5em;
+	font-weight: 900;
+	/*文字の影の設定*/
+
+	/* tex-shadow: 下方向の影の長さ　横方向の影の長さ　影のぼかし度合　色指定;*/
+}
+
+/* 見出しの設定(3番目に大きい) */
+h3{
+	color: #faf7ef;
+	background-color: rgb(0, 133, 167);
+	font-size: 1.3em;
+	width: 15%;
+	position: relative;
+	padding: 1rem 1rem calc(1rem + 5px);
+	border: 2px solid #ffffff;
+	/*border-bottom: 線のスタイル　太さ　色;*/
+}
+
+h3:after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 10px;
+	content: '';
+	border-top: 2px solid #ffffff;
+	background-image: -webkit-repeating-linear-gradient(135deg, #ffffff, #ffffff 1px, transparent 2px, transparent 5px);
+	background-image: repeating-linear-gradient(-45deg, #ffffff, #ffffff 1px, transparent 2px, transparent 5px);
+	background-size: 7px 7px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+  }
+
+  h4{
+	color: #ffffff00;
+	width: 18%;
+	font-weight :bolder ;
+  }
+
+  h5{
+	color: #faf7ef;
+	background-color: rgb(0, 133, 167);
+	font-size: 1.3em;
+	position: relative;
+	padding: 1rem 1rem calc(1rem + 5px);
+	border: 2px solid #ffffff;
+	/*border-bottom: 線のスタイル　太さ　色;*/
+}
+h5:after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 10px;
+	content: '';
+	border-top: 2px solid #ffffff;
+	background-image: -webkit-repeating-linear-gradient(135deg, #ffffff, #ffffff 1px, transparent 2px, transparent 5px);
+	background-image: repeating-linear-gradient(-45deg, #ffffff, #ffffff 1px, transparent 2px, transparent 5px);
+	background-size: 7px 7px;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+  }
+
+  .box-design11 {
+	margin: 20px auto;
+	padding: 20px;
+	background: #b2d3e4;
+	box-shadow: 0 0 0 10px #b2d3e4;
+	border: 2px dashed #fff;
+  }
+
+  h6 {
+	/*文字の色*/
+	color: #faf7ef;
+	background-color: rgb(18, 84, 158);
+	/*文字の大きさ*/
+	font-size: 1em;
+	font-weight: 800;
+	width: 15%;
+	/*文字の影の設定*/
+
+	/* tex-shadow: 下方向の影の長さ　横方向の影の長さ　影のぼかし度合　色指定;*/
+}
+
+ol.favorite{
+	list-style-type: decimal;
+}
+
+ul.links{
+	list-style-type: square;
+}
